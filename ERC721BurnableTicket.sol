@@ -24,7 +24,7 @@ contract MyERC721 is
     
     //Site
     string private _creatorSitePassWord1 = "123456789";//FirstPassword
-    string private _creatorSiteAddress1 = "https://1111.official.ec/secret_ec/";//example
+    string private _creatorSiteAddress1 = "https://15390372.official/code9";//example
     
     
     //enableSwitch
