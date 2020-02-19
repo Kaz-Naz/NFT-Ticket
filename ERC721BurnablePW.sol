@@ -26,8 +26,8 @@ contract MyERC721 is
     string private _creatorSiteAddress1 = "https://test.io";//example
     
     //burnFunction 実行PIN
-    uint256 _burnPinCode = 1111;//examplePIN
-    //enableSwitch
+    uint256 _burnPinCode = 1111;//examplePIN uint256の数字なら何桁でも良い　　　
+   //enableSwitch
     bool _enableFlag = true ; 
     
     
