@@ -45,7 +45,7 @@ bytes32 salt = 0x000000000000000000000000000000000000000000000000000000000000000
 function oneTimePassCode() public view returns (bytes32) {
     string memory str =  bytes32ToString(salt) ;
     uint256 inte =  block.number ;
-    //
+    ////この関数の中身はユーザーで変えられる。この関数と同じ内容をwebサイトなどに実装し、同期させないといけない。
     return sha256(abi.encodePacked( inte, str));
 }
 
